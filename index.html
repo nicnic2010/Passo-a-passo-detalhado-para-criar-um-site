@@ -1,1 +1,986 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+    <!-- Permite caracteres como ç, ã e é -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site se adaptar a celulares -->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- Nome mostrado na aba do navegador -->
+    <title>Como Criar um Site Educativo</title>
+
+    <!-- Conexão com o arquivo CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         CAPA DO SITE
+    ========================== -->
+
+    <header class="inicio">
+
+        <div class="inicio-conteudo">
+
+            <div class="icone-principal">
+                💻
+            </div>
+
+            <p class="etiqueta-inicio">
+                GUIA PARA INICIANTES
+            </p>
+
+            <h1>
+                Como criar um site do zero
+            </h1>
+
+            <p class="texto-inicio">
+                Um guia passo a passo para aprender a criar,
+                organizar e publicar um site utilizando
+                GitHub, HTML, CSS e JavaScript.
+            </p>
+
+            <a
+                href="#comecar"
+                class="botao-principal"
+            >
+                Começar a aprender 🚀
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+         INTRODUÇÃO
+    ========================== -->
+
+    <section id="comecar" class="introducao">
+
+        <span class="etiqueta">
+            PRIMEIRO PASSO
+        </span>
+
+        <h2>
+            🤔 O que vamos utilizar?
+        </h2>
+
+        <p class="texto-central">
+            Antes de criar o site, é importante entender
+            a função de cada ferramenta e arquivo.
+        </p>
+
+
+        <div class="ferramentas">
+
+
+            <article class="ferramenta-card">
+
+                <div class="emoji">
+                    🌐
+                </div>
+
+                <h3>
+                    GitHub
+                </h3>
+
+                <p>
+                    É o local onde os arquivos do projeto
+                    podem ser armazenados e publicados.
+                </p>
+
+            </article>
+
+
+            <article class="ferramenta-card">
+
+                <div class="emoji">
+                    🧱
+                </div>
+
+                <h3>
+                    HTML
+                </h3>
+
+                <p>
+                    Cria a estrutura e o conteúdo que
+                    aparece na página.
+                </p>
+
+            </article>
+
+
+            <article class="ferramenta-card">
+
+                <div class="emoji">
+                    🎨
+                </div>
+
+                <h3>
+                    CSS
+                </h3>
+
+                <p>
+                    Define as cores, tamanhos, fundos,
+                    espaçamentos e aparência do site.
+                </p>
+
+            </article>
+
+
+            <article class="ferramenta-card">
+
+                <div class="emoji">
+                    ⚙️
+                </div>
+
+                <h3>
+                    JavaScript
+                </h3>
+
+                <p>
+                    Adiciona interatividade, como botões,
+                    respostas e quizzes.
+                </p>
+
+            </article>
+
+
+            <article class="ferramenta-card">
+
+                <div class="emoji">
+                    🎥
+                </div>
+
+                <h3>
+                    MP4
+                </h3>
+
+                <p>
+                    É um formato de arquivo que pode ser
+                    utilizado para adicionar vídeos ao site.
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         VISÃO GERAL
+    ========================== -->
+
+    <section class="visao-geral">
+
+        <span class="etiqueta">
+            COMO TUDO SE CONECTA
+        </span>
+
+        <h2>
+            🔗 Os arquivos trabalhando juntos
+        </h2>
+
+
+        <div class="conexao">
+
+            <div class="arquivo">
+                <span>📄</span>
+                <strong>index.html</strong>
+                <p>Estrutura</p>
+            </div>
+
+            <div class="seta">
+                →
+            </div>
+
+            <div class="arquivo">
+                <span>🎨</span>
+                <strong>style.css</strong>
+                <p>Aparência</p>
+            </div>
+
+            <div class="seta">
+                →
+            </div>
+
+            <div class="arquivo">
+                <span>⚙️</span>
+                <strong>script.js</strong>
+                <p>Interatividade</p>
+            </div>
+
+        </div>
+
+
+        <div class="explicacao-conexao">
+
+            <p>
+                O <strong>HTML</strong> cria os elementos
+                da página. O <strong>CSS</strong> muda a
+                aparência desses elementos. O
+                <strong>JavaScript</strong> faz alguns
+                elementos responderem às ações do usuário.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         REPOSITÓRIO
+    ========================== -->
+
+    <section class="passos-section">
+
+        <div class="titulo-section">
+
+            <span class="etiqueta">
+                GITHUB
+            </span>
+
+            <h2>
+                📁 Passo 1: criar o repositório
+            </h2>
+
+            <p>
+                O repositório funciona como a pasta
+                principal onde todos os arquivos do
+                projeto ficarão armazenados.
+            </p>
+
+        </div>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                1
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Entrar no GitHub
+                </h3>
+
+                <p>
+                    Abra o navegador e entre na sua conta
+                    do GitHub. Depois de entrar, procure
+                    a página inicial da sua conta.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                2
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Procurar o botão de criação
+                </h3>
+
+                <p>
+                    Na página do GitHub, procure o símbolo
+                    <strong>+</strong>.
+                </p>
+
+                <div class="caixa-caminho">
+
+                    <p>
+                        <strong>+</strong>
+                    </p>
+
+                    <p>
+                        ↓
+                    </p>
+
+                    <p>
+                        <strong>New repository</strong>
+                    </p>
+
+                </div>
+
+                <p>
+                    Em algumas telas, também é possível
+                    encontrar o botão chamado
+                    <strong>New</strong> dentro da área
+                    de repositórios.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                3
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Escolher o nome
+                </h3>
+
+                <p>
+                    Procure o campo chamado:
+                </p>
+
+                <div class="campo-exemplo">
+
+                    Repository name
+                </div>
+
+                <p>
+                    Nesse campo, escreva o nome que será
+                    utilizado para identificar o projeto.
+                </p>
+
+                <div class="codigo-pequeno">
+
+                    meu-site-educativo
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                4
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Criar o repositório
+                </h3>
+
+                <p>
+                    Depois de escolher o nome, desça até o
+                    final da página e procure o botão:
+                </p>
+
+                <div class="botao-exemplo">
+                    Create repository
+                </div>
+
+                <p>
+                    Depois de tocar nesse botão, o
+                    repositório será criado.
+                </p>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+
+    <!-- =========================
+         ARQUIVOS
+    ========================== -->
+
+    <section class="arquivos-section">
+
+        <span class="etiqueta">
+            ORGANIZAÇÃO
+        </span>
+
+        <h2>
+            📄 Passo 2: criar os arquivos
+        </h2>
+
+        <p class="texto-central">
+            Cada tipo de código deve ser colocado no
+            arquivo correspondente.
+        </p>
+
+
+        <div class="estrutura-pasta">
+
+            <p>
+                📁 meu-site
+            </p>
+
+            <p>
+                ├── 📄 index.html
+            </p>
+
+            <p>
+                ├── 🎨 style.css
+            </p>
+
+            <p>
+                ├── ⚙️ script.js
+            </p>
+
+            <p>
+                └── 🎥 video.mp4
+            </p>
+
+        </div>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                1
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Encontrar Add file
+                </h3>
+
+                <p>
+                    Dentro do repositório, procure o botão
+                    chamado:
+                </p>
+
+                <div class="caixa-caminho">
+
+                    <strong>Add file</strong>
+
+                    <span>↓</span>
+
+                    <strong>Create new file</strong>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                2
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Criar o HTML
+                </h3>
+
+                <p>
+                    No campo onde aparece o nome do arquivo,
+                    escreva exatamente:
+                </p>
+
+                <pre><code>index.html</code></pre>
+
+                <p>
+                    Abaixo do nome existe uma área grande
+                    para escrever o conteúdo do arquivo.
+                    É nessa área que o código HTML será
+                    colocado.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                3
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Salvar o arquivo
+                </h3>
+
+                <p>
+                    Depois de escrever o código, role até
+                    encontrar:
+                </p>
+
+                <div class="botao-exemplo">
+                    Commit changes
+                </div>
+
+                <p>
+                    Esse botão salva as alterações dentro
+                    do repositório.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="passo-detalhado">
+
+            <div class="numero">
+                4
+            </div>
+
+            <div class="conteudo-passo">
+
+                <h3>
+                    Criar os outros arquivos
+                </h3>
+
+                <p>
+                    Repita o mesmo processo para criar:
+                </p>
+
+                <div class="lista-arquivos">
+
+                    <span>🎨 style.css</span>
+
+                    <span>⚙️ script.js</span>
+
+                </div>
+
+                <p>
+                    Atenção: o nome deve ser escrito
+                    exatamente dessa forma.
+                </p>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+
+    <!-- =========================
+         HTML
+    ========================== -->
+
+    <section class="html-section">
+
+        <span class="etiqueta">
+            ESTRUTURA
+        </span>
+
+        <h2>
+            🧱 Passo 3: construir o HTML
+        </h2>
+
+        <p class="texto-central">
+            O HTML deve ser escrito dentro do arquivo
+            <strong>index.html</strong>.
+        </p>
+
+
+        <article class="aula-card">
+
+            <h3>
+                1. A primeira linha
+            </h3>
+
+            <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+
+            <p>
+                Essa linha informa ao navegador que o
+                documento utiliza HTML5.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                2. A tag html
+            </h3>
+
+            <pre><code>&lt;html lang="pt-BR"&gt;
+
+&lt;/html&gt;</code></pre>
+
+            <p>
+                Essa tag envolve todo o conteúdo do site.
+                O atributo <strong>lang="pt-BR"</strong>
+                informa que o conteúdo está em português
+                do Brasil.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                3. Criar o head
+            </h3>
+
+            <pre><code>&lt;head&gt;
+
+&lt;/head&gt;</code></pre>
+
+            <p>
+                O <strong>head</strong> guarda informações
+                importantes sobre a página, mas essas
+                informações não aparecem como conteúdo
+                principal para o visitante.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                4. Permitir caracteres especiais
+            </h3>
+
+            <pre><code>&lt;meta charset="UTF-8"&gt;</code></pre>
+
+            <p>
+                Essa linha ajuda o navegador a mostrar
+                corretamente caracteres como:
+                <strong>ç, ã, é e ô</strong>.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                5. Adaptar para celular
+            </h3>
+
+            <pre><code>&lt;meta
+    name="viewport"
+    content="width=device-width,
+    initial-scale=1.0"
+&gt;</code></pre>
+
+            <p>
+                Essa configuração ajuda o site a se adaptar
+                melhor a telas de diferentes tamanhos,
+                como celulares e computadores.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                6. Escolher o título da aba
+            </h3>
+
+            <pre><code>&lt;title&gt;
+    Meu site educativo
+&lt;/title&gt;</code></pre>
+
+            <p>
+                O texto colocado dentro da tag
+                <strong>title</strong> aparece na aba do
+                navegador.
+            </p>
+
+        </article>
+
+
+        <!-- CONECTAR CSS -->
+
+        <article class="aula-card destaque-card">
+
+            <h3>
+                🔗 7. Conectar o CSS
+            </h3>
+
+            <p>
+                Ainda dentro do <strong>head</strong>,
+                escreva:
+            </p>
+
+            <pre><code>&lt;link
+    rel="stylesheet"
+    href="style.css"
+&gt;</code></pre>
+
+            <div class="explicacao-tags">
+
+                <p>
+                    <strong>link:</strong>
+                    cria uma conexão com outro arquivo.
+                </p>
+
+                <p>
+                    <strong>rel="stylesheet":</strong>
+                    informa que o arquivo conectado é
+                    uma folha de estilos.
+                </p>
+
+                <p>
+                    <strong>href="style.css":</strong>
+                    informa o nome do arquivo CSS.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                8. Criar o body
+            </h3>
+
+            <pre><code>&lt;body&gt;
+
+&lt;/body&gt;</code></pre>
+
+            <p>
+                Tudo que aparece para o visitante deve
+                ser escrito dentro do
+                <strong>body</strong>.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                9. Criar um título
+            </h3>
+
+            <pre><code>&lt;h1&gt;
+    Lentes no nosso dia a dia
+&lt;/h1&gt;</code></pre>
+
+            <p>
+                A tag <strong>h1</strong> cria o título
+                principal da página.
+            </p>
+
+        </article>
+
+
+        <article class="aula-card">
+
+            <h3>
+                10. Criar um texto
+            </h3>
+
+            <pre><code>&lt;p&gt;
+    Este é um texto explicativo.
+&lt;/p&gt;</code></pre>
+
+            <p>
+                A tag <strong>p</strong> cria um parágrafo.
+            </p>
+
+        </article>
+
+    </section>
+
+
+
+    <!-- =========================
+         TAGS
+    ========================== -->
+
+    <section class="tags-section">
+
+        <span class="etiqueta">
+            REFERÊNCIA
+        </span>
+
+        <h2>
+            🔖 Principais tags HTML
+        </h2>
+
+
+        <div class="tabela-tags">
+
+            <div class="linha-tags titulo-tags">
+                <strong>Tag</strong>
+                <strong>Função</strong>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;h1&gt;</code>
+                <span>Título principal</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;h2&gt;</code>
+                <span>Título secundário</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;p&gt;</code>
+                <span>Parágrafo</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;section&gt;</code>
+                <span>Cria uma seção</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;div&gt;</code>
+                <span>Agrupa elementos</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;a&gt;</code>
+                <span>Cria um link</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;img&gt;</code>
+                <span>Mostra uma imagem</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;video&gt;</code>
+                <span>Mostra um vídeo</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;button&gt;</code>
+                <span>Cria um botão</span>
+            </div>
+
+
+            <div class="linha-tags">
+                <code>&lt;footer&gt;</code>
+                <span>Cria o rodapé</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CLASSES
+    ========================== -->
+
+    <section class="classes-section">
+
+        <span class="etiqueta">
+            CONEXÃO
+        </span>
+
+        <h2>
+            🏷️ Como utilizar classes
+        </h2>
+
+        <p class="texto-central">
+            As classes ajudam a identificar elementos
+            para que eles possam receber estilos no CSS.
+        </p>
+
+
+        <div class="comparacao-codigo">
+
+            <div>
+
+                <h3>
+                    HTML
+                </h3>
+
+                <pre><code>&lt;section
+    class="inicio"
+&gt;
+
+&lt;/section&gt;</code></pre>
+
+            </div>
+
+
+            <div class="seta-comparacao">
+                ↔
+            </div>
+
+
+            <div>
+
+                <h3>
+                    CSS
+                </h3>
+
+                <pre><code>.inicio {
+
+    background:
+        purple;
+
+}</code></pre>
+
+            </div>
+
+        </div>
+
+
+        <div class="explicacao-conexao">
+
+            <p>
+                No HTML, a classe recebe o nome
+                <strong>inicio</strong>. No CSS, o mesmo
+                nome é utilizado com um ponto na frente:
+                <strong>.inicio</strong>.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CSS
+                  
