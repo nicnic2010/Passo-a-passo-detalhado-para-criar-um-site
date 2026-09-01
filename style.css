@@ -1,1 +1,1067 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #fff9fd;
+
+    color: #302638;
+
+    line-height: 1.6;
+}
+
+
+section {
+    padding: 80px 20px;
+}
+
+
+h2 {
+    color: #71308d;
+
+    font-size:
+        clamp(
+            32px,
+            6vw,
+            50px
+        );
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+h3 {
+    color: #6b2d84;
+}
+
+
+.texto-central {
+    max-width: 750px;
+
+    margin:
+        0 auto
+        40px;
+
+    text-align: center;
+
+    font-size: 18px;
+}
+
+
+/* =========================
+   ETIQUETAS
+========================= */
+
+.etiqueta {
+    display: block;
+
+    width: fit-content;
+
+    margin:
+        0 auto
+        15px;
+
+    padding: 7px 16px;
+
+    border-radius: 30px;
+
+    background: #efd6f8;
+
+    color: #71308d;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   INÍCIO
+========================= */
+
+.inicio {
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            #ffc1e7,
+            transparent 28%
+        ),
+
+        radial-gradient(
+            circle at 85% 75%,
+            #9fefff,
+            transparent 28%
+        ),
+
+        linear-gradient(
+            135deg,
+            #76369d,
+            #d964d7,
+            #55cbe5
+        );
+
+    color: white;
+}
+
+
+.inicio-conteudo {
+    max-width: 800px;
+}
+
+
+.icone-principal {
+    font-size: 75px;
+
+    margin-bottom: 20px;
+}
+
+
+.etiqueta-inicio {
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+
+.inicio h1 {
+    color: white;
+
+    font-size:
+        clamp(
+            42px,
+            9vw,
+            75px
+        );
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+
+.texto-inicio {
+    max-width: 650px;
+
+    margin: auto;
+
+    font-size: 19px;
+}
+
+
+.botao-principal {
+    display: inline-block;
+
+    margin-top: 35px;
+
+    padding: 16px 30px;
+
+    border-radius: 35px;
+
+    background: white;
+
+    color: #71308d;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.botao-principal:hover {
+    transform:
+        translateY(-4px);
+}
+
+
+/* =========================
+   FERRAMENTAS
+========================= */
+
+.introducao {
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+
+.ferramentas {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(200px, 1fr)
+        );
+
+    gap: 20px;
+}
+
+
+.ferramenta-card {
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 22px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 25px
+        rgba(70, 40, 90, 0.12);
+
+    transition: 0.3s;
+}
+
+
+.ferramenta-card:hover {
+    transform:
+        translateY(-6px);
+}
+
+
+.emoji {
+    font-size: 45px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   CONEXÃO
+========================= */
+
+.visao-geral {
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f5e8ff,
+            #e8faff
+        );
+}
+
+
+.conexao {
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+
+.arquivo {
+    min-width: 180px;
+
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 20px
+        rgba(70, 40, 90, 0.1);
+}
+
+
+.arquivo span {
+    display: block;
+
+    font-size: 35px;
+
+    margin-bottom: 8px;
+}
+
+
+.seta {
+    font-size: 35px;
+
+    color: #8a3fa7;
+}
+
+
+.explicacao-conexao {
+    max-width: 750px;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: white;
+}
+
+
+/* =========================
+   PASSOS
+========================= */
+
+.passos-section {
+    background: #fff9fd;
+}
+
+
+.titulo-section {
+    max-width: 750px;
+
+    margin:
+        0 auto
+        40px;
+
+    text-align: center;
+}
+
+
+.passo-detalhado {
+    max-width: 850px;
+
+    margin: 25px auto;
+
+    display: flex;
+
+    gap: 20px;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    background: white;
+
+    box-shadow:
+        0 10px 25px
+        rgba(70, 40, 90, 0.1);
+}
+
+
+.numero {
+    min-width: 55px;
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #833ca3,
+            #dc67d7
+        );
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+.conteudo-passo {
+    width: 100%;
+}
+
+
+.conteudo-passo h3 {
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   CAIXAS
+========================= */
+
+.caixa-caminho {
+    margin: 20px 0;
+
+    padding: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 8px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f4dcff,
+            #ddf8ff
+        );
+
+    color: #623078;
+}
+
+
+.campo-exemplo {
+    margin: 15px 0;
+
+    padding: 15px;
+
+    border: 2px solid #c67ada;
+
+    border-radius: 10px;
+
+    color: #777;
+
+    background: white;
+}
+
+
+.codigo-pequeno {
+    margin-top: 15px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background: #27212d;
+
+    color: #f7eaff;
+
+    font-family: monospace;
+}
+
+
+.botao-exemplo {
+    width: fit-content;
+
+    margin: 15px 0;
+
+    padding: 12px 20px;
+
+    border-radius: 10px;
+
+    background: #7b379a;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+
+.lista-arquivos {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin: 20px 0;
+}
+
+
+.lista-arquivos span {
+    padding: 12px 18px;
+
+    border-radius: 15px;
+
+    background: #f2e2fa;
+
+}
+
+
+/* =========================
+   ESTRUTURA DE PASTA
+========================= */
+
+.arquivos-section {
+    background:
+        linear-gradient(
+            180deg,
+            #eefaff,
+            #fff9fd
+        );
+}
+
+
+.estrutura-pasta {
+    max-width: 600px;
+
+    margin:
+        30px auto
+        50px;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: #27212d;
+
+    color: #f7eaff;
+
+    font-family: monospace;
+
+    line-height: 2;
+}
+
+
+/* =========================
+   AULAS
+========================= */
+
+.html-section,
+.css-section,
+.javascript-section,
+.imagem-section,
+.video-section {
+    background: #fff9fd;
+}
+
+
+.aula-card {
+    max-width: 850px;
+
+    margin: 25px auto;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    background: white;
+
+    box-shadow:
+        0 10px 25px
+        rgba(70, 40, 90, 0.1);
+}
+
+
+.aula-card h3 {
+    margin-bottom: 15px;
+
+    font-size: 24px;
+}
+
+
+.destaque-card {
+    border:
+        2px solid
+        #d897eb;
+}
+
+
+/* =========================
+   CÓDIGO
+========================= */
+
+pre {
+    margin: 20px 0;
+
+    padding: 20px;
+
+    overflow-x: auto;
+
+    border-radius: 15px;
+
+    background: #27212d;
+
+    color: #f7eaff;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+.explicacao-tags {
+    margin-top: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    background: #f7eaff;
+}
+
+
+.explicacao-tags p {
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   TAGS
+========================= */
+
+.tags-section {
+    background:
+        linear-gradient(
+            135deg,
+            #f2e3ff,
+            #e1f8ff
+        );
+}
+
+
+.tabela-tags {
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    background: white;
+
+    box-shadow:
+        0 10px 25px
+        rgba(70, 40, 90, 0.1);
+}
+
+
+.linha-tags {
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        2fr;
+
+    padding: 15px 20px;
+
+    border-bottom:
+        1px solid
+        #eee;
+}
+
+
+.titulo-tags {
+    background: #7b379a;
+
+    color: white;
+}
+
+
+/* =========================
+   CLASSES
+========================= */
+
+.classes-section {
+    background: #fff9fd;
+}
+
+
+.comparacao-codigo {
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+
+.comparacao-codigo > div {
+    flex: 1;
+
+    min-width: 280px;
+}
+
+
+.seta-comparacao {
+    flex: none !important;
+
+    min-width: auto !important;
+
+    font-size: 40px;
+
+    color: #823da2;
+}
+
+
+/* =========================
+   JAVASCRIPT
+========================= */
+
+.javascript-section {
+    background:
+        linear-gradient(
+            135deg,
+            #fff0fb,
+            #edfaff
+        );
+}
+
+
+/* =========================
+   QUIZ
+========================= */
+
+.quiz-section {
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f2e2ff,
+            #e4f9ff
+        );
+}
+
+
+.quiz-box {
+    max-width: 650px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    background: white;
+
+    box-shadow:
+        0 10px 25px
+        rgba(70, 40, 90, 0.15);
+}
+
+
+.resposta {
+    width: 100%;
+
+    margin-top: 12px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #f0dcfa;
+
+    color: #512263;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+.resposta:hover {
+    transform: scale(1.02);
+}
+
+
+.resultado-quiz {
+    margin-top: 20px;
+
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+
+/* =========================
+   CHECKLIST
+========================= */
+
+.conectar-section {
+    background: #fff9fd;
+}
+
+
+.checklist {
+    max-width: 650px;
+
+    margin: 40px auto;
+
+    display: grid;
+
+    gap: 12px;
+}
+
+
+.item-check {
+    padding: 18px;
+
+    border-radius: 15px;
+
+    background: white;
+
+    box-shadow:
+        0 7px 18px
+        rgba(70, 40, 90, 0.08);
+
+    cursor: pointer;
+}
+
+
+.item-check input {
+    margin-right: 12px;
+
+    transform: scale(1.2);
+}
+
+
+/* =========================
+   PUBLICAÇÃO
+========================= */
+
+.publicacao-section {
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #71308d,
+            #c85ecb,
+            #54c7e0
+        );
+
+    color: white;
+}
+
+
+.publicacao-section h2 {
+    color: white;
+}
+
+
+.publicacao-passos {
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(180px, 1fr)
+        );
+
+    gap: 15px;
+}
+
+
+.publicacao-passos div {
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.18
+        );
+}
+
+
+.publicacao-passos span {
+    display: inline-flex;
+
+    width: 45px;
+
+    height: 45px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+
+    color: #71308d;
+
+    font-weight: bold;
+}
+
+
+.link-exemplo {
+    max-width: 700px;
+
+    margin: 30px auto;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.18
+        );
+}
+
+
+.link-exemplo code {
+    display: block;
+
+    margin-top: 10px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    color: #71308d;
+
+    overflow-wrap: break-word;
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+    padding: 70px 20px;
+
+    text-align: center;
+
+    background: #2c2133;
+
+    color: white;
+}
+
+
+footer h2 {
+    color: white;
+
+    margin-top: 15px;
+}
+
+
+.icone-final {
+    font-size: 45px;
+}
+
+
+.frase-final {
+    margin-top: 20px;
+
+    color: #e8b8fa;
+
+    font-weight: bold;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 650px) {
+
+    section {
+        padding: 55px 15px;
+    }
+
+
+    .inicio h1 {
+        font-size: 42px;
+    }
+
+
+    .texto-inicio {
+        font-size: 17px;
+    }
+
+
+    .passo-detalhado {
+        flex-direction: column;
+
+        padding: 22px;
+    }
+
+
+    .numero {
+        min-width: 50px;
+    }
+
+
+    pre {
+        font-size: 12px;
+
+        padding: 15px;
+    }
+
+
+    .seta {
+        transform:
+            rotate(90deg);
+    }
+
+
+    .linha-tags {
+        grid-template-columns:
+            1fr
+            1.5fr;
+    }
+
+      }
